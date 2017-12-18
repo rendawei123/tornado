@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>index</title>
+</head>
+<body>
+    <h1>index1</h1>
+
+
+
+    <form method="post">
+        {% raw form.fields['user'] %}
+        {% raw form.fields['email'] %}
+        <input type="submit" value="提交">
+    </form>
+
+</body>
+</html>
